@@ -1,0 +1,742 @@
+/* basic */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.h {
+    height: 100%;
+}
+
+.bg-web {
+    background-color: #CBFE1C;
+}
+
+.fg-web {
+    color: #CBFE1C;
+}
+
+
+.border-web {
+    border-color: #CBFE1C;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+/* nav */
+
+
+.navbar {
+    background-color: #0B0E13;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 999999999999;
+
+}
+
+
+.navbar a:hover {
+    color: #CBFE1C;
+}
+
+.navbar .z:hover {
+    color: #CBFE1C;
+
+
+}
+
+.navbar button:hover {
+    background-color: #c9fe1ccf;
+    transition: 0.3s;
+
+}
+
+nav .nav-item a.active {
+    color: #25E070;
+}
+
+
+/* home1.1 */
+
+.home .button1:hover {
+    background-color: #c9fe1ccf;
+    transition: 0.3s;
+
+}
+
+.home .button2:hover {
+    background-color: #C5F61C;
+    color: black;
+    transition: 0.3s;
+
+}
+
+
+#home {
+    background-image: url(hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+        url("hero-bg.jpg") center / cover no-repeat;
+
+}
+
+.home-container {
+    width: 80%;
+    padding-top: 100px;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 100px;
+}
+
+/* home-left */
+
+
+
+
+.home-left p {
+    padding-top: 20px;
+}
+
+.fg-1 {
+    color: #CBFE1C;
+}
+
+.home-button {
+    padding-top: 12px;
+}
+
+.home-button .button1 {
+    padding: 16px 35px;
+    background-color: #CBFE1C;
+    border-radius: 10px;
+    color: black;
+    border: 0;
+}
+
+
+
+
+.home-button .button2 {
+    padding: 16px 35px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: #C5F61C;
+    border: 2px #CBFE1C solid;
+    transform: translateX(12px);
+}
+
+
+
+/* home-right */
+
+.home-right {
+    padding-left: 30px;
+    padding-top: 20px;
+
+}
+
+.img-hold img {
+    border: #C5F61C 5px solid;
+    border-radius: 8px;
+
+    height: 50vh;
+
+
+
+}
+
+.img-hold {
+    position: relative;
+}
+
+
+
+.home-right .sp {
+
+    background-color: #0B0E13;
+    border: #202733 2px solid;
+    border-radius: 10px;
+    padding: 20px 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(50px) translateX(-40px);
+}
+
+.sp-i {
+    color: #CBFE1C;
+    font-size: 20px;
+    padding-right: 12px;
+    transform: translateY(13px);
+}
+
+
+
+.d-if {
+
+    display: inline-flex;
+
+
+}
+
+.gray {
+    color: #9097A5;
+}
+
+
+/* our game */
+
+
+
+.s {
+    position: relative;
+    overflow: hidden;
+}
+
+.spa {
+    position: absolute;
+    top: -10%;
+    left: 10%;
+    background-color: #2F461E;
+}
+
+.spa2 {
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    background-color: #2F461E;
+}
+
+.spa3 {
+    position: absolute;
+    bottom: -10%;
+    left: 10;
+}
+
+
+.s:hover .spa {
+
+    top: 5%;
+
+    left: 10%;
+    transition: 0.5s;
+
+}
+
+.s:hover .spa2 {
+
+    top: 5%;
+
+    left: 50%;
+    transition: 0.5s;
+
+}
+
+.s:hover .spa3 {
+
+    bottom: 10%;
+
+    left: 10%;
+    transition: 0.5s;
+
+}
+
+
+.s:hover {
+    border: #C5F61C 2px solid;
+    border-radius: 11px;
+    transition: 0.2s;
+
+}
+
+
+
+
+.OUR-GAME h2::before {
+    content: "";
+    width: 5%;
+    height: 10%;
+    background-color: #CBFE1C;
+    top: 50%;
+    left: 40%;
+
+    position: absolute;
+}
+
+
+
+
+.OUR-GAME h2::after {
+    content: "";
+    width: 5%;
+    height: 10%;
+    background-color: #CBFE1C;
+    top: 50%;
+    right: 40%;
+
+    position: absolute;
+}
+
+
+.b3:hover {
+    background-color: #CBFE1C;
+    color: black;
+    transition: 0.2s;
+}
+
+.b4 {
+    background-color: transparent;
+    border: #323C4C solid 2px;
+}
+
+.b4:hover {
+
+    border: #CBFE1C 2px solid;
+    transition: 0.1s;
+}
+
+
+/* what-we-do */
+
+
+.header3 h2::before {
+    content: "";
+    width: 5%;
+    height: 10%;
+    background-color: #CBFE1C;
+    top: 50%;
+    left: 40%;
+
+    position: absolute;
+}
+
+
+.header3 h2::after {
+    content: "";
+    width: 5%;
+    height: 10%;
+    background-color: #CBFE1C;
+    top: 50%;
+    right: 40%;
+
+    position: absolute;
+}
+
+
+.inner:hover .i {
+    background-color: #CBFE1C;
+    color: #0B0E13;
+    transition: 0.5s;
+}
+
+.inner {
+    overflow: hidden;
+    height: 100%;
+}
+
+
+.What-We-Do .inner:hover {
+    border: 2px #CBFE1C solid;
+    transition: 0.5s;
+}
+
+
+.bg-what {
+    background-color: #1E2939;
+}
+
+.bg-we {
+    background-color: #1A1A1A;
+}
+
+
+.pp {
+    padding-top: 80px;
+}
+
+
+
+
+
+
+
+
+/* animation */
+.row-anime {
+    margin-top: 100px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+
+
+.slide1 {
+    display: flex;
+    width: max-content;
+    animation: move 15s linear infinite;
+}
+
+
+.slide2 {
+    display: flex;
+    width: max-content;
+    animation: move 15s linear infinite reverse;
+}
+
+
+
+
+.slide1 img {
+    width: 100px;
+    height: 85px;
+    object-fit: cover;
+    border-radius: 15px;
+    flex-shrink: 0;
+}
+
+.slide2 img {
+    width: 100px;
+    height: 85px;
+    object-fit: cover;
+    border-radius: 15px;
+    flex-shrink: 0;
+}
+
+
+.g1 img,
+.g2 img {
+    width: 100px;
+    height: 85px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+
+
+
+.g1,
+.g2 {
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+    flex-shrink: 0;
+}
+
+
+
+
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+
+
+.ziad::before {
+    content: "";
+    width: 50%;
+    height: 0.2%;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+
+    background-color: #CBFE1C;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* our-team */
+
+.our-team {
+    margin-top: 250px;
+}
+
+
+
+.header4 h2::before {
+    content: "";
+    width: 5%;
+    height: 10%;
+    background-color: #CBFE1C;
+    top: 50%;
+    left: 40%;
+
+    position: absolute;
+}
+
+
+.header4 h2::after {
+    content: "";
+    width: 5%;
+    height: 10%;
+    background-color: #CBFE1C;
+    top: 50%;
+    right: 40%;
+
+    position: absolute;
+}
+
+.header4 p {
+
+    color: #8F97A4;
+}
+
+.img-team {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50%;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.imag {
+    filter: grayscale(100%);
+    transform-origin: bottom;
+}
+
+
+
+.ss {
+    transform: rotate(90deg);
+
+}
+
+
+
+
+.sa {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #0b0e13;
+    opacity: 0.8;
+    top: 0;
+    bottom: 0;
+}
+
+
+.zi:hover .sa {
+    height: 0;
+    transition: 0.8s;
+
+
+
+}
+
+
+.zi:hover h3 {
+    color: #C2F31D;
+}
+
+.zi:hover span {
+    color: #C2F31D;
+
+}
+
+
+.zi:hover .imag {
+    filter: grayscale(0%);
+    transition: 0.3s;
+}
+
+
+.zi:not(:hover) .imag {
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+
+
+
+
+
+.zi:not(:hover) .sa {
+    height: 100;
+    transition: 0.8s;
+
+    transform-origin: top;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact-us */
+
+.contact-us {
+    margin-top: 80px;
+    background-color: #0E1420;
+    padding-top: 100px;
+
+}
+
+.header5 h2::after {
+    content: "";
+    width: 5%;
+    height: 10%;
+    background-color: #CBFE1C;
+    top: 50%;
+    right: 40%;
+
+    position: absolute;
+}
+
+
+.header5 h2::before {
+    content: "";
+    width: 5%;
+    height: 10%;
+    background-color: #CBFE1C;
+    top: 50%;
+    left: 40%;
+
+    position: absolute;
+}
+
+.fg-pp {
+    color: #979FAD;
+}
+
+
+.bg-div {
+    background-color: #1E2939;
+}
+
+
+
+.iconn .ic:hover {
+    background-color: #2C3C1C;
+    transition: 0.2s;
+}
+
+
+
+.inp {
+    background-color: #364153;
+    color: #848B95;
+}
+
+.pb-20 {
+    padding-bottom: 100px;
+}
+
+.inp-c {
+    color: #848B95;
+}
+
+.in {
+    border-bottom: 2px #2A3546 solid;
+}
+
+.in .bu:hover {
+    background-color: #A8D321;
+    transition: 0.2s;
+}
+
+
+
+
+.inner4 .child1 {
+    background: linear-gradient(#C7FD24, #95F152, #25E070);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer a {
+    text-decoration: none;
+    color: #99A1AF;
+}
+
+
+.footer .aa:hover {
+    color: #CBFE1C;
+    transition: 0.3s;
+}
+
+
+
+
+
+.u {
+    list-style: none;
+    transform: translateX(-20px);
+}
+
+.u .l:hover {
+    color: #C5F61C;
+    transition: 0.2s;
+}
+
+
+
+
+.footer-end {
+    border-top: 3px solid #0F141C;
+}
